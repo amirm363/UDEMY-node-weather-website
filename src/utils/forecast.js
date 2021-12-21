@@ -12,11 +12,11 @@ const forecast = (latitude, longitude, callback) => {
       callback(
         undefined,
         body.features[0].center[0] +
-          " It is currently " +
+          " That data" +
           body.features[0].center[1] +
-          " degress out. There is a " +
+          " is bullshit " +
           body.features[0].center +
-          "% chance of rain."
+          "I have no idea what the chance of rain is."
       );
     }
   });
